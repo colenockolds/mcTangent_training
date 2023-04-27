@@ -271,4 +271,4 @@ final_opt_state = TrainModel(Train_data, Test_data, num_epochs, opt_state)
 import pickle
 
 trained_params = optimizers.unpack_optimizer_state(final_opt_state)
-pickle.dump(trained_params, open('../src/network/Best_trial_' + filename, "wb"))
+pickle.dump(trained_params, open('network/Best_trial_' + filename, "wb"))
